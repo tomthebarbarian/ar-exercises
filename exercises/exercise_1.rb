@@ -25,7 +25,5 @@ class Stores < ActiveRecord::Base
     womens_apparel: false
   )
   
-
-  
   # stores_num = Stores.all.count
 end
