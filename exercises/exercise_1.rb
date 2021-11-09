@@ -5,6 +5,7 @@ puts "----------"
 
 # Your code goes below here ...
 class Stores < ActiveRecord::Base
+  has_many :employees
   burnaby = Stores.create(
     name:"Burnaby",
     annual_revenue:300000,
@@ -27,5 +28,5 @@ class Stores < ActiveRecord::Base
 
   stores_num = Stores.all.count
 
-  puts "This is stores num #{stores_num}"
+  # puts "This is stores num #{stores_num}"
 end

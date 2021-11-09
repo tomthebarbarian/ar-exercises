@@ -7,7 +7,7 @@ puts "----------"
 
 # Your code goes here ...
 class Stores < ActiveRecord::Base
-
+  has_many :employees
   @store3 = Stores.find_by(id: 3)
   @store3.destroy
 
