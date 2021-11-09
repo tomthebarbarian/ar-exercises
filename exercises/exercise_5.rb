@@ -14,6 +14,6 @@ class Stores < ActiveRecord::Base
   # stores_avg  = Stores.all.average(:annual_revenue)
   # puts stores_avg
 
-  rhinos = Stores.where("annual_revenue > 1000000").count
-  puts rhinos
+  # rhinos = Stores.where("annual_revenue > 1000000").count
+  # puts rhinos
 end

@@ -6,7 +6,6 @@ puts "----------"
 
 # Your code goes here ...
 class Stores < ActiveRecord::Base
-  has_many :employees
   @store1 = Stores.find_by(id: 1)
   @store2 = Stores.find_by(id: 2)
 
